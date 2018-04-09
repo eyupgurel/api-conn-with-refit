@@ -37,6 +37,7 @@ C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.Linq.xml
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.PlatformServices.xml
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\Rx.Xamarin.Android.Core.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\Api-Connection-With-Refit.csprojResolveAssemblyReference.cache
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\Microsoft.CSharp.pdb
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\Mono.Android.pdb
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\mscorlib.pdb

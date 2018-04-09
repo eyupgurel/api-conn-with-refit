@@ -19,7 +19,7 @@ namespace Api_Connection_With_Refit.Interface
     interface IGitHubApi
     {
         [Get("/search/users?q=location:london")]
-        Task<ApiResponse> GetLondonUsers();
+        IObservable<ApiResponse> GetLondonUsers();
         [Get("/search/users?q=location:istanbul")]
         IObservable<ApiResponse> GetIstanbulUsers();
     }

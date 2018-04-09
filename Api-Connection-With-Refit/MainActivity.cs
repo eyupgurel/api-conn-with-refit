@@ -27,15 +27,11 @@ namespace Api_Connection_With_Refit
         IListAdapter ListAdapter;
         ListView listView;
 
-
-
         protected override void OnCreate(Bundle bundle)
         {
-
             try
             {
                 base.OnCreate(bundle);
-
                 SetContentView(Resource.Layout.Main);
                 cake_lyf_button = FindViewById<Button>(Resource.Id.btn_list_users);
                 listView = FindViewById<ListView>(Resource.Id.listview_users);
@@ -48,7 +44,6 @@ namespace Api_Connection_With_Refit
                 };
 
                 gitHubApi = RestService.For<IGitHubApi>("https://api.github.com");
-
             }
             catch (Exception ex)
             {
@@ -58,61 +53,17 @@ namespace Api_Connection_With_Refit
 
         private void Cake_lyf_button_Click(object sender, EventArgs e)
         {
-            //Observable.create
-
-           // getLondonUsers();
-
             IObservable<ApiResponse> istanbulUsers = gitHubApi.GetIstanbulUsers();
-            
-             istanbulUsers.ObserveOn(AndroidSchedulers.MainThread()).Subscribe(resp =>
+            istanbulUsers.ObserveOn(AndroidSchedulers.MainThread()).Subscribe(resp =>
             {
-                try
-                {
-                    users = resp.items;
-                    foreach (User user in users)
-                    {
-                        user_names.Add(user.ToString());
-                    }
-                    ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, user_names);
-                    listView.Adapter = ListAdapter;
-                }
-                catch(Exception ex)
-                {
-                    int i = 0;
-                }
-
-            });
-
-
-
-
-
-        }
-
-        private async void getLondonUsers()
-        {
-            try
-            {
-                ApiResponse response = await gitHubApi.GetLondonUsers();
-                users = response.items;
-
+                users = resp.items;
                 foreach (User user in users)
                 {
                     user_names.Add(user.ToString());
                 }
                 ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, user_names);
                 listView.Adapter = ListAdapter;
-
-            }
-            catch (Exception ex)
-            {
-                Toast.MakeText(this, ex.StackTrace, ToastLength.Long).Show();
-
-            }
-
+            });
         }
-
-
     }
 }
-
