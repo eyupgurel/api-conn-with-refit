@@ -1,0 +1,4 @@
+Api_Connection_With_Refit.MainActivity, Api-Connection-With-Refit;md599a486658a7a9133ba3075628fc4e78b.MainActivity
+Api_Connection_With_Refit.MainActivity, Api-Connection-With-Refit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md599a486658a7a9133ba3075628fc4e78b.MainActivity
+Api_Connection_With_Refit.MainActivity;md599a486658a7a9133ba3075628fc4e78b.MainActivity
+api_connection_with_refit.MainActivity;md599a486658a7a9133ba3075628fc4e78b.MainActivity
