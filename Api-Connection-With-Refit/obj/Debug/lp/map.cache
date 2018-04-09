@@ -3,7 +3,13 @@ Microsoft.Extensions.Primitives
 Microsoft.Net.Http.Headers
 Newtonsoft.Json
 Refit
+Rx.Xamarin.Android.Core
 System.Buffers
+System.Reactive.Core
+System.Reactive.Interfaces
+System.Reactive.Linq
+System.Reactive.PlatformServices
 System.Runtime.CompilerServices.Unsafe
 System.Runtime
+System.Runtime.InteropServices.WindowsRuntime
 System.Text.Encodings.Web

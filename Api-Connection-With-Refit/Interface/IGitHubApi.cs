@@ -18,7 +18,9 @@ namespace Api_Connection_With_Refit.Interface
     [Headers("User-Agent: :request:")]
     interface IGitHubApi
     {
-        [Get("/search/users?q=location:lagos")]
-        Task<ApiResponse> GetUser();
+        [Get("/search/users?q=location:london")]
+        Task<ApiResponse> GetLondonUsers();
+        [Get("/search/users?q=location:istanbul")]
+        IObservable<ApiResponse> GetIstanbulUsers();
     }
 }

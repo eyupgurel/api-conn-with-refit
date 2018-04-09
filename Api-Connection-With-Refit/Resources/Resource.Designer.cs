@@ -26,6 +26,7 @@ namespace Api_Connection_With_Refit
 		
 		public static void UpdateIdValues()
 		{
+			global::Rx.Xamarin.Android.Core.Resource.String.library_name = global::Api_Connection_With_Refit.Resource.String.library_name;
 		}
 		
 		public partial class Attribute
@@ -79,8 +80,11 @@ namespace Api_Connection_With_Refit
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f030001
+			public const int app_name = 2130903041;
+			
 			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			public const int library_name = 2130903040;
 			
 			static String()
 			{

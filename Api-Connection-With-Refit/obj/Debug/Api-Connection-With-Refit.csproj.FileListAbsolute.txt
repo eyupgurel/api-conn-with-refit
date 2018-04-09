@@ -26,6 +26,17 @@ C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\Api-Connection-With-Refit.csproj.CopyComplete
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\Api-Connection-With-Refit.dll.config
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.Core.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.Linq.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.Core.xml
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.Linq.xml
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\Rx.Xamarin.Android.Core.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\Microsoft.CSharp.pdb
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\Mono.Android.pdb
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\bin\Debug\mscorlib.pdb

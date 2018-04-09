@@ -10,6 +10,10 @@ using Newtonsoft.Json.Converters;
 using System;
 using Api_Connection_With_Refit.Interface;
 using Api_Connection_With_Refit.Model;
+using System.Reactive.Linq;
+using System.Threading.Tasks;
+using System.Reactive.Concurrency;
+using Rx.Xamarin.Android.Core;
 
 namespace Api_Connection_With_Refit
 {
@@ -54,15 +58,42 @@ namespace Api_Connection_With_Refit
 
         private void Cake_lyf_button_Click(object sender, EventArgs e)
         {
-            getUsers();
+            //Observable.create
+
+           // getLondonUsers();
+
+            IObservable<ApiResponse> istanbulUsers = gitHubApi.GetIstanbulUsers();
+            
+             istanbulUsers.ObserveOn(AndroidSchedulers.MainThread()).Subscribe(resp =>
+            {
+                try
+                {
+                    users = resp.items;
+                    foreach (User user in users)
+                    {
+                        user_names.Add(user.ToString());
+                    }
+                    ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItem1, user_names);
+                    listView.Adapter = ListAdapter;
+                }
+                catch(Exception ex)
+                {
+                    int i = 0;
+                }
+
+            });
+
+
+
+
 
         }
 
-        private async void getUsers()
+        private async void getLondonUsers()
         {
             try
             {
-                ApiResponse response = await gitHubApi.GetUser();
+                ApiResponse response = await gitHubApi.GetLondonUsers();
                 users = response.items;
 
                 foreach (User user in users)

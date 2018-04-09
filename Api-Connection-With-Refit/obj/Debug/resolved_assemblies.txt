@@ -8,13 +8,19 @@ C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\mscorlib.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\Refit.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\Rx.Xamarin.Android.Core.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Buffers.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Core.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.IO.Compression.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Net.Http.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Reactive.Core.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Reactive.Interfaces.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Reactive.Linq.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Reactive.PlatformServices.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Runtime.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Text.Encodings.Web.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Xml.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Threading.dll
@@ -54,4 +60,6 @@ C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Reflection.TypeExtensions.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Diagnostics.Tracing.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\Mono.Security.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.ComponentModel.dll
+C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 C:\Users\eyupg\source\repos\Api-Connection-With-Refit\Api-Connection-With-Refit\obj\Debug\android\assets\System.ComponentModel.Composition.dll

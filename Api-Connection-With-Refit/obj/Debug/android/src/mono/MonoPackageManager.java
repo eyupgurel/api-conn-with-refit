@@ -112,8 +112,14 @@ class MonoPackageManager_Resources {
 		"Microsoft.Net.Http.Headers.dll",
 		"Newtonsoft.Json.dll",
 		"Refit.dll",
+		"Rx.Xamarin.Android.Core.dll",
 		"System.Buffers.dll",
+		"System.Reactive.Core.dll",
+		"System.Reactive.Interfaces.dll",
+		"System.Reactive.Linq.dll",
+		"System.Reactive.PlatformServices.dll",
 		"System.Runtime.CompilerServices.Unsafe.dll",
+		"System.Runtime.InteropServices.WindowsRuntime.dll",
 		"System.Text.Encodings.Web.dll",
 	};
 	public static final String[] Dependencies = new String[]{

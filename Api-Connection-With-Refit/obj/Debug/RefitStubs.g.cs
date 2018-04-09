@@ -58,11 +58,19 @@ namespace Api_Connection_With_Refit.Interface
         }
 
         /// <inheritdoc />
-        public virtual Task<ApiResponse> GetUser()
+        public virtual Task<ApiResponse> GetLondonUsers()
         {
             var arguments = new object[] {  };
-            var func = methodImpls.GetOrAdd("GetUser()", _ => requestBuilder.BuildRestResultFuncForMethod("GetUser", new Type[] {  }));
+            var func = methodImpls.GetOrAdd("GetLondonUsers()", _ => requestBuilder.BuildRestResultFuncForMethod("GetLondonUsers", new Type[] {  }));
             return (Task<ApiResponse>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        public virtual IObservable<ApiResponse> GetIstanbulUsers()
+        {
+            var arguments = new object[] {  };
+            var func = methodImpls.GetOrAdd("GetIstanbulUsers()", _ => requestBuilder.BuildRestResultFuncForMethod("GetIstanbulUsers", new Type[] {  }));
+            return (IObservable<ApiResponse>)func(Client, arguments);
         }
 
     }
